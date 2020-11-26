@@ -25,14 +25,16 @@
       <version>${scala.version}</version>
     </dependency>
 
-    <!-- Spark 3.0.1 change if neccesary-->
+    <!-- Spark libs-->
+
+    <!-- Spark 3.0.1 change if necessary-->
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_2.12</artifactId>
       <version>3.0.1</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+    <!-- Spark 3.0.1-sql change if necessary-->
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_2.12</artifactId>
