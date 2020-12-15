@@ -206,8 +206,8 @@ object FlightArrDelayPredictor {
       .setEstimator(modelGen.getModel)
       .setEvaluator(new RegressionEvaluator().setMetricName("r2").setLabelCol(ColArrDelay))
       .setEstimatorParamMaps(modelGen.getParamGridBuilt)
-      .setNumFolds(2) //3
-      .setParallelism(4) //4
+      .setNumFolds(3)
+      .setParallelism(4)
 
     // Model
     val modelTrained = cv.fit(trainingData)
