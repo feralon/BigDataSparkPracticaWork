@@ -41,6 +41,14 @@
       <version>3.0.1</version>
     </dependency>
 
+    <!-- Spark 3.0.1-mllib change if necessary-->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-mllib_2.12</artifactId>
+      <version>3.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
   <build>
